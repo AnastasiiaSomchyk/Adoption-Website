@@ -1,0 +1,9 @@
+body {
+  width: 100%;
+  justify-content: center;
+}
+
+.card-img-top {
+  display: block;
+width: 100%;
+}
