@@ -7,11 +7,11 @@ const domString = (pets) => {
     domStrang += `<h1 class-"panel-title">${pet.name}</h1>`;
     domStrang += `<img class="card-img-top" alt="Card image" cap src="${pet.imageUrl}">`;
     domStrang += `<div class="card-body">`;
-    domStrang += `<h6>${pet.color}</h6>`;
+    domStrang += `<h4>${pet.color}</h4>`;
     domStrang += `<p>${pet.specialSkill}</p>`;
     domStrang += `</div>`;
     domStrang += `<div class="card-footer">`;
-    domStrang += `<h3 class="card-title" data-pet-type="${pet.type}">${pet.type}</h3>`;
+    domStrang += `<h3 class="card-title">${pet.type}</h3>`;
     domStrang += `</div>`;
     domStrang += `</div>`;
   });
