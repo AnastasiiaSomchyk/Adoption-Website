@@ -11,7 +11,7 @@ const domString = (pets) => {
     domStrang += `<p>${pet.specialSkill}</p>`;
     domStrang += `</div>`;
     domStrang += `<div class="card-footer">`;
-    domStrang += `<h3 class="card-title">${pet.type}</h3>`;
+    domStrang += `<h3 class="card-title" data-pet-type="${pet.type}">${pet.type}</h3>`;
     domStrang += `</div>`;
     domStrang += `</div>`;
   });
