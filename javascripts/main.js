@@ -14,6 +14,10 @@ const main = () => {
       console.log('response: ', data);
       const filteredPets = [];
 
+      if (clickedId === 'reset') {
+        return dom(data.pets);
+      }
+
       data.pets.forEach((pet) => {
         console.log('pet: ', pet);
         if (pet.type === clickedId) {
